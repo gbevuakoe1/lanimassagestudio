@@ -11,7 +11,9 @@
         left: 0;
         width: 100%;
         background-color: white;
+        padding: 0 10px !important;
         z-index: 999;
+        
     }
 
     .nav-wrapper{
@@ -98,6 +100,14 @@
 
     .contact-section .contact-container{
         flex-direction: column;
+    }
+}
+
+
+/* 600px for mobile */
+@media (max-width:600px){
+    header{
+        padding: 20px 10px;
     }
 }
 
