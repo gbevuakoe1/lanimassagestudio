@@ -95,5 +95,9 @@
     .service-container{
         flex-direction: column;
     }
+
+    .contact-section .contact-container{
+        flex-direction: column;
+    }
 }
 
