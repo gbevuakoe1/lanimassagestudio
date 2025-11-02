@@ -101,6 +101,22 @@
     .contact-section .contact-container{
         flex-direction: column;
     }
+
+    footer{
+        height: 100vh;
+    }
+
+    footer .footer-container{
+        flex-direction: column;
+    
+    }
+    footer .footer-container h4{
+        margin-bottom: 25px;
+    }
+
+    footer .copy-right{
+        margin: 20px 0;
+    }
 }
 
 
