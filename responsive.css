@@ -117,6 +117,10 @@
     footer .copy-right{
         margin: 20px 0;
     }
+
+    .main-contact .main-container{
+        flex-direction: column;
+    }
 }
 
 

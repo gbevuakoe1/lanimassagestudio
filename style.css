@@ -379,3 +379,72 @@ footer .copy-right{
     text-align: center;
     font-size: 16px;
 }
+
+
+/* 
+        CONTACT SESSION */
+
+
+.hero-contact{
+    background: linear-gradient(rgba(22,36,86,0.4),rgba(22,36,86,0.5)), url(./Massage3\ \(2\).jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-contact h1{
+    color: white;
+    font-size: 50px;
+}
+
+.main-contact{
+    margin: 80px 0;
+}
+
+.main-contact .main-container{
+    display: flex;
+    gap: 50px;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.main-contact .main-container .contact-left{
+    flex: 1;
+}
+
+.main-contact .main-container .contact-left p{
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+
+
+.main-contact .main-container .main-form{
+    flex: 1;
+}
+
+
+.main-contact .main-container .main-form .input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+}
+
+.main-contact .main-container .main-form textarea{
+    height: 150px !important;
+    resize: none !important;
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+}
+
+
