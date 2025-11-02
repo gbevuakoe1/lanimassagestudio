@@ -193,6 +193,7 @@ header{
     text-align: center;
     background-color: rgba(230, 229, 229, 0.432);
     height: 140vh;
+    overflow: hidden;
 }
 
 

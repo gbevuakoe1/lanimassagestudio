@@ -67,6 +67,10 @@
         flex-direction: column-reverse;
     }
 
+    .massage-moment{
+        height: 140vh;
+    }
+
     .service-container{
         flex-direction: column;
     }
