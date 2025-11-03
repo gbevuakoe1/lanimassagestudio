@@ -144,11 +144,16 @@
     }
 
     .note-section p{
-        font-size: 24px;
+        font-size: 18px;
+        padding: 0 20px;
     }
 
     .choose-container{
         flex-direction: column;
+    }
+
+    .choose-section .choose-container .choose-left p{
+        font-size: 16px;
     }
 }
 
