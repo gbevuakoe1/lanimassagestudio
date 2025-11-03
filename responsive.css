@@ -125,6 +125,11 @@
     .importance-container{
         flex-direction: column;
     }
+
+
+    .mainservice-container{
+        flex-direction: column-reverse;
+    }
 }
 
 

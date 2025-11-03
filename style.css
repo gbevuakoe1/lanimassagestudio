@@ -536,4 +536,40 @@ footer .copy-right{
 
 
 
+.hero-service{
+    background: linear-gradient(rgba(22,36,86,0.4),rgba(22,36,86,0.5)), url(./Service\ hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-service h1{
+    color: white;
+    font-size: 50px;
+}
+.main-service{
+    margin: 20px 0;
+}
+
+.main-service .mainservice-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 60px 20px;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.mainservice-container .mainservice-card img{
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
 
