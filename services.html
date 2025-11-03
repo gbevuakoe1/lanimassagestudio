@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fixed Backgrounds Example</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      color: white;
+    }
+
+    /* General section style */
+    section {
+      min-height: 100vh; /* full viewport height */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed; /* keeps background still */
+      position: relative;
+    }
+
+    /* Overlay for readability */
+    section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+
+    /* Section text content */
+    .content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* Different background images */
+    .bg1 {
+      background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+    }
+    .bg2 {
+      background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    }
+    .bg3 {
+      background-image: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    }
+    .bg4 {
+      background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb");
+    }
+  </style>
+</head>
+<body>
+  <section class="bg1">
+    <div class="content">
+      <h1>Welcome to the Ocean</h1>
+      <p>Feel the calm of the waves as you scroll through the sections.</p>
+    </div>
+  </section>
+
+  <section class="bg2">
+    <div class="content">
+      <h1>Explore the Mountains</h1>
+      <p>Majestic peaks that stay still while your thoughts wander.</p>
+    </div>
+  </section>
+
+  <section class="bg3">
+    <div class="content">
+      <h1>Walk Through the Forest</h1>
+      <p>Lose yourself among trees that stand tall and serene.</p>
+    </div>
+  </section>
+
+  <section class="bg4">
+    <div class="content">
+      <h1>Chase the Sunset</h1>
+      <p>End your journey with colors that never fade away.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by ChatGPT — Fixed Background Demo</p>
+  </footer>
+</body>
+</html>
