@@ -121,6 +121,10 @@
     .main-contact .main-container{
         flex-direction: column;
     }
+
+    .importance-container{
+        flex-direction: column;
+    }
 }
 
 
