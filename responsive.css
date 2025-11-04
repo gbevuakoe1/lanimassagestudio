@@ -152,8 +152,12 @@
         flex-direction: column;
     }
 
+    .choose-section .choose-container .choose-left i{
+    margin-right: 10px;
+}
+
     .choose-section .choose-container .choose-left p{
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
