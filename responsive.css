@@ -42,6 +42,11 @@
         text-align: center;
         padding: 30px 0;
         font-size: 24px;
+        color: black;
+    }
+
+    .nav-links a:hover, .nav-links .active{
+        color: black;
     }
 
     .menu-btn{
@@ -55,12 +60,12 @@
         left: 15px;
         top: 15px;
         padding: 6px;
-        background-color: rgb(6, 201, 6);
+        background-color: #D4AF37;
         border-radius: 14px;
     }
 
     #open-btn{
-        background-color: rgb(6, 201, 6);
+        background-color: #D4AF37;
         padding: 6px;
         border-radius: 14px;
     }
