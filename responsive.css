@@ -60,18 +60,19 @@
         left: 15px;
         top: 15px;
         padding: 6px;
-        background-color: #D4AF37;
+        background-color: #651839;
         border-radius: 14px;
     }
 
     #open-btn{
-        background-color: #D4AF37;
+        background-color: #651839;
         padding: 6px;
         border-radius: 14px;
     }
 
     .logo{
         font-size: 24px;
+        color: #651839;
     }
 
     .hero{
