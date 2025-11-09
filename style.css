@@ -350,6 +350,17 @@ header .nav-links li a{
     flex: 1;
 }
 
+
+.whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+
+.whatsapp img{
+    width: 40px;
+}
+
 footer{
     background-color: #651839;
     height: 80vh;
