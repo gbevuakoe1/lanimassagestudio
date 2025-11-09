@@ -1,13 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: "Lato" sans-serif;
+    font-family: "Poppins" sans-serif;
+    text-decoration: none;
 }
+
+
+
+.menu-btn{
+    display: none;
+}
+
+.logo{
+    color: #D4AF37;
+}
+
 
 .cta-btn{
     background-color: #D4AF37;
@@ -48,8 +59,7 @@ header{
     justify-content: space-between;
     background-color: #651839;
     width: 100%;
-    padding: 20px 20px;
-    height: 80px;
+    padding: 0 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: sticky;
     top: 0;
@@ -57,33 +67,64 @@ header{
     z-index: 999;
 }
 
-.menu-btn{
-    display: none;
-}
-
-.logo{
-    color: #D4AF37;
-}
-
-.nav-links{
+header .nav-links{
     display: flex;
+    
+}
+
+header .nav-links li{
     list-style: none;
+    position: relative;
 }
 
 
-.nav-links li a{
+
+header .nav-links li a{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500px;
     color: #ffffff;
-    padding: 0 40px;
+    padding: 20px;
     text-decoration: none;
     transition: 0.3s ease;
+    display: block;
 }
 
-.nav-links li a:hover, .nav-links .active{
-    color: #D4AF37;
+.nav-links li a:hover, .ul .active{
+    background-color: #D4AF37;
 }
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #651839;
+  min-width: 160px;
+  display: none;
+  flex-direction: column;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.dropdown-menu a:hover {
+  background: #333;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+
 
 .hero{
     background: linear-gradient(rgba(22,36,86,0.4),rgba(22,36,86,0.5)), url(./about\ body.jpg);

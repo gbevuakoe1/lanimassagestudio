@@ -10,4 +10,12 @@ closeBtn.addEventListener("click", () =>{
 });
 
 
+// Mobile dropdown toggle
+dropdown.addEventListener("click", (e) => {
+  if (window.innerWidth <= 768) {
+    e.preventDefault();
+    dropdown.classList.toggle("active");
+  }
+});
+
 

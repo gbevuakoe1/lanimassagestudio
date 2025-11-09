@@ -13,24 +13,36 @@
 </head>
 
 <body>
-    <header>
-        <h2 class="logo">K' SPA</h2>
-        <nav class="nav-wrapper">
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./service.html">Service</a></li>
-                <li><a href="">Booking</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="menu-btn" id="close-btn">
-                <i class="fas fa-times"></i>
-            </div>
-        </nav>
-        <div class="menu-btn" id="open-btn">
-            <i class="fas fa-bars"></i>
-        </div>
-    </header>
+<header>
+    <h2 class="logo">K' SPA</h2>
+
+    <nav class="nav-wrapper">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+
+        <li class="dropdown">
+          <a href="#">Services <i class="fas fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Massage</a></li>
+            <li><a href="#">Hair</a></li>
+            <li><a href="#">Nail</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="menu-btn close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+    </nav>
+
+    <div class="menu-btn open-btn" id="open-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
 
     <section class="hero">
         <h1>Find Your Peace, One Massage at a Time</h1>
