@@ -14,23 +14,37 @@
 
 <body>
     <header>
-        <h2 class="logo">K' SPA</h2>
-        <nav class="nav-wrapper">
-            <ul class="nav-links">
-                <li><a href="index.html" class=>Home</a></li>
-                <li><a href="./about.html" class="active">About</a></li>
-                <li><a href="./service.html">Service</a></li>
-                <li><a href="">Booking</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="menu-btn" id="close-btn">
-                <i class="fas fa-times"></i>
-            </div>
-        </nav>
-        <div class="menu-btn" id="open-btn">
-            <i class="fas fa-bars"></i>
-        </div>
-    </header>
+    <h2 class="logo">K' SPA</h2>
+
+    <nav class="nav-wrapper">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+
+        <li class="dropdown">
+          <a href="">Services <i class="fas fa-angle-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="./massage.html">MASSAGE SERVICES</a></li>
+            <li><a href="#">HAIR SERVICES</a></li>
+            <li><a href="#">NAIL SERVICES</a></li>
+            <li><a href="#">MAKE UP SERVICES</a></li>
+            <li><a href="">PHOTO STUDIO SERVICES</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Booking</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="menu-btn close-btn" id="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+    </nav>
+
+    <div class="menu-btn open-btn" id="open-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
 
     <section class="hero-about">
         <h1>ABOUT US</h1>
