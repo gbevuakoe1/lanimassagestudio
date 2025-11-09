@@ -651,8 +651,9 @@ footer .copy-right{
 
 .mainservice-container .mainservice-card img{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     margin-bottom: 20px;
+    object-fit: coVER;
 }
 
 
@@ -721,6 +722,17 @@ footer .copy-right{
 
 /* NAIL SERVICES */
 
+.nail-body{
+      line-height: 1.6;
+      color: black;
+      background-image: url(./Nail\ Art.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* This keeps the background still */
+      background-position: center center;
+      width: 100%;
+    }
+
 .hero-nail{
     background: linear-gradient(rgba(22,36,86,0.4),rgba(22,36,86,0.5)), url(./nail\ about\ 2.jpg);
     background-size: cover;
@@ -736,7 +748,40 @@ footer .copy-right{
 .hero-nail h1{
     color: white;
     font-size: 50px;
+    text-align: center;
 }
 
 
 
+
+
+/* HAIR SERVICES */
+
+.hair-body{
+      line-height: 1.6;
+      color: black;
+      background-image: url(./Natural\ Hair\ Treatment.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* This keeps the background still */
+      background-position: center center;
+      width: 100%;
+    }
+
+.hero-hair{
+    background: linear-gradient(rgba(22,36,86,0.4),rgba(22,36,86,0.5)), url(./Bridal\ hair\ styling.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-hair h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
